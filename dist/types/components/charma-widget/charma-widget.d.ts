@@ -1,0 +1,33 @@
+import type { ButtonSizes } from '../charma-gifting-button/charma-gifting-button';
+import { OpenWidgetData } from '../../api/types';
+export declare class CharmaWidget {
+  showWidget: boolean;
+  disabled: boolean;
+  isSubmitting: boolean;
+  isProductLoading: boolean;
+  step: number;
+  hasPreselectedProduct: boolean;
+  buttonSize: ButtonSizes;
+  language: 'en' | 'sv';
+  productId: string;
+  animationLoaded: boolean;
+  componentWillLoad(): void;
+  componentDidLoad(): void;
+  openWidget(e: CustomEvent<Partial<OpenWidgetData>>): void;
+  handleCloseWidget(): void;
+  closeWidget(): void;
+  invalidKey(): void;
+  onModalOpen(newState: boolean, prevState: boolean): Promise<void>;
+  validateAndSetInitialData(): void;
+  toggleForm: () => void;
+  onGiftSubmit(): Promise<import("../../types/orders.types").TCreateOrderResponse>;
+  navigateTab: (index: number) => void;
+  nextStep: () => Promise<void>;
+  goBack: () => void;
+  onProductSelect: (id: string) => void;
+  renderSteps(): any;
+  getButtonLabel(): string;
+  switchlanguage(language: 'en' | 'sv'): void;
+  getError(): string;
+  render(): any;
+}

@@ -1,0 +1,11 @@
+declare const svg1: any;
+declare const svg2: any;
+declare const svg3: any;
+declare const svg4: any;
+declare const svg5: any;
+declare const svg6: any;
+declare const svg7: any;
+declare const svg8: any;
+declare const svg9: any;
+declare const svg10: any;
+export { svg1, svg2, svg3, svg4, svg5, svg6, svg7, svg8, svg9, svg10 };

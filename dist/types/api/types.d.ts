@@ -1,0 +1,10 @@
+import z from 'zod';
+import { createOrderSchema, querySchema, keyDataSchema, deliverySchema, billingSchema, countriesSchema, openWidgetSchema, baseUrlSchema } from './schemas';
+export type QueryDto = z.infer<typeof querySchema>;
+export type OrderDto = z.infer<typeof createOrderSchema>;
+export type KeyData = z.infer<typeof keyDataSchema>;
+export type Countries = z.infer<typeof countriesSchema>;
+export type DeliveryData = z.infer<typeof deliverySchema>;
+export type BillingData = z.infer<typeof billingSchema>;
+export type OpenWidgetData = z.infer<typeof openWidgetSchema>;
+export type BaseUrl = z.infer<typeof baseUrlSchema>;

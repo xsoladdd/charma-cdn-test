@@ -1,0 +1,85 @@
+export const sv = {
+  translation: {
+    widget_button: 'Skicka en present',
+    widget_button_disabled: 'Presentutskick inaktiverat',
+    back: 'Tillbaka',
+    next: 'Nästa',
+    exit: 'Avsluta',
+    loading_text: 'Förbereder beställning...',
+    order: 'Placera beställning',
+    sideBar: {
+      title: 'Välkommen!',
+      itemSelection: 'Val av objekt',
+      itemSelectionSubtitle: 'Välj ett eller flera objekt',
+      billingAddress: 'Faktureringsadress',
+      billingAddressSubtitle: 'Lägg till faktureringsinformation',
+      shippingAddress: 'Leveransadress',
+      shippingAddressSubtitle: 'Lägg till leveransinformation',
+      confirmation: 'Bekräftelse',
+      confirmationSubtitle: 'Dubbelkolla allt',
+      thankYou: 'Tack',
+      thankYouSubtitle: 'Din beställning har lagts framgångsrikt',
+    },
+    productCard: {
+      excludedVat: 'excl. moms',
+    },
+    step_product: {
+      title: 'Välj produkt.',
+    },
+    shippingInfromation: {
+      title: 'Leveransadress',
+      form: {
+        button: {
+          personal: 'Personligt',
+          company: 'Företag',
+        },
+        organizationName: 'Organisationsnamn',
+        given_name: 'Förnamn',
+        family_name: 'Efternamn',
+        phone: 'Telefonnummer',
+        care_of: 'Vård av',
+        street_address: 'Gatuadress',
+        street_address2: 'Gatuadress 2',
+        postal_code: 'Postnummer',
+        city: 'Stad',
+        country: 'Land',
+        comment: 'Kommentar',
+        email: 'E-post',
+        organization_name: 'Företagsnamn',
+      },
+    },
+    billingInformation: {
+      title: 'Betalningsmetoder',
+      form: {
+        organization_number: 'Organisationsnummer',
+        company_name: 'Företagsnamn',
+        invoice_delivery: 'Fakturaleverans',
+        email: 'E-post',
+        zip: 'Postnummer',
+        city: 'Stad',
+        message: 'Meddelande till Charma (valfritt)',
+      },
+    },
+    confirmation: {
+      title: 'Bekräftelse',
+      selectedProducts: 'Valda produkter',
+      shippingInformation: 'Leveransinformation',
+      billingInformation: 'Faktureringsinformation',
+    },
+    thankyou: {
+      subtitle: 'Tack!',
+      order: 'Din beställning <span class="link">#{{order}}</span> har genomförts!',
+      desc: `Vi har skickat ett mejl till <span class="link">{{email}}</span> med din beställningsbekräftelse och kvitto. Om mejlet inte har kommit fram inom två minuter, vänligen kontrollera din skräppostmapp.`,
+    },
+    errors: {
+      selectProduct: 'Vänligen välj en eller flera produkter',
+      formError: 'Något gick fel, var god kontrollera formuläret',
+      submittingError: 'Något gick fel. Var god försök igen efter 1 minut',
+      forms: {
+        required: 'Detta fält får inte vara tomt',
+        invalidEmail: 'Ogiltig e-postadress',
+      },
+    },
+  },
+};
+//# sourceMappingURL=sv.js.map

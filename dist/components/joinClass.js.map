@@ -1,0 +1,1 @@
+{"file":"joinClass.js","mappings":"MAAa,SAAS,GAAG,CAAC,GAAG,OAAsB;EACjD,OAAO,OAAO,CAAC,MAAM,CAAC,OAAO,CAAC,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC;AAC3C;;;;","names":[],"sources":["src/utils/joinClass.ts"],"sourcesContent":["export const joinClass = (...classes: Array<string>): string => {\n  return classes.filter(Boolean).join(' ');\n};\n"],"version":3}

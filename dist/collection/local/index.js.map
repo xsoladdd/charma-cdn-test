@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/local/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,EAAE,EAAE,MAAM,MAAM,CAAC;AAC1B,OAAO,EAAE,EAAE,EAAE,MAAM,MAAM,CAAC;AAC1B,MAAM,CAAC,MAAM,KAAK,GAAG;EACnB,EAAE;EACF,EAAE;CACH,CAAC","sourcesContent":["import { en } from './en';\nimport { sv } from './sv';\nexport const local = {\n  en,\n  sv,\n};\n"]}

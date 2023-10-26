@@ -1,0 +1,24 @@
+{
+  "entries": [
+    "components/ui/charma-dropdown/charma-dropdown.js",
+    "components/charma-gifting-button/charma-gifting-button.js",
+    "components/charma-confirmation/charma-confirmation.js",
+    "components/charma-delivery/charma-delivery.js",
+    "components/charma-order-placed/charma-order-placed.js",
+    "components/charma-payment/charma-payment.js",
+    "components/charma-products/charma-products.js",
+    "components/charma-widget/charma-widget.js",
+    "components/ui/charma-card/charma-card.js",
+    "components/ui/charma-input/charma-input.js",
+    "components/ui/charma-radio-group/charma-radio-group.js",
+    "components/ui/charma-textarea/charma-textarea.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "4.6.0",
+    "typescriptVersion": "5.2.2"
+  },
+  "collections": [],
+  "bundles": [],
+  "global": "init.js"
+}

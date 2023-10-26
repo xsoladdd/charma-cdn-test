@@ -1,0 +1,1 @@
+{"version":3,"file":"type.js","sourceRoot":"","sources":["../../../../src/components/ui/charma-radio-group/type.ts"],"names":[],"mappings":"","sourcesContent":["export type TRadioOptions = Array<{\n  title: string;\n  value: string;\n}>;\n"]}

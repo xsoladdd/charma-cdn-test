@@ -1,0 +1,85 @@
+export const en = {
+  translation: {
+    widget_button: 'Send a gift',
+    widget_button_disabled: 'Gift Sending Disabled',
+    back: 'Back',
+    next: 'Next',
+    exit: 'Exit',
+    loading_text: 'Preparing order...',
+    order: 'Place Order',
+    sideBar: {
+      title: 'Welcome!',
+      itemSelection: 'Item Selection',
+      itemSelectionSubtitle: 'Select one or more items',
+      billingAddress: 'Billing Address',
+      billingAddressSubtitle: 'Add billing information',
+      shippingAddress: 'Shipping Address',
+      shippingAddressSubtitle: 'Add shipping information',
+      confirmation: 'Confirmation',
+      confirmationSubtitle: 'Double check everything',
+      thankYou: 'Thank You',
+      thankYouSubtitle: 'Your order has been placed succesfully',
+    },
+    productCard: {
+      excludedVat: 'excluding VAT',
+    },
+    step_product: {
+      title: 'Item Selection',
+    },
+    shippingInfromation: {
+      title: 'Delivery Address',
+      form: {
+        button: {
+          personal: 'Personal',
+          company: 'Company',
+        },
+        organizationName: 'Organization name',
+        given_name: 'Given Name',
+        family_name: 'Family Name',
+        phone: 'Phone Number',
+        care_of: 'Care of',
+        street_address: 'Street Address',
+        street_address2: 'Street Address 2',
+        postal_code: 'Postal Code',
+        city: 'City',
+        country: 'Country',
+        comment: 'Comment',
+        email: 'E-mail',
+        organization_name: 'Organization name',
+      },
+    },
+    billingInformation: {
+      title: 'Payment Methods',
+      form: {
+        organization_number: 'Organization Number',
+        company_name: 'Company Name',
+        invoice_delivery: 'Invoice Delivery',
+        email: 'E-mail',
+        zip: 'Zip Code',
+        city: 'City',
+        message: 'Message to Charma(Optional)',
+      },
+    },
+    confirmation: {
+      title: 'Confirmation',
+      selectedProducts: 'Selected products',
+      shippingInformation: 'Shipping infromation',
+      billingInformation: 'Billing information',
+    },
+    thankyou: {
+      subtitle: 'Thank You!',
+      order: 'Your order <span class="link">#{{order}}</span> has been placed!',
+      desc: `We sent an email to <span class="link">{{email}}</span> with your order confirmation and receipt. If the email hasn't arrived within two minutes, please check your spam folder to see if the email was routed there.`,
+    },
+    errors: {
+      selectProduct: 'Please select one or more product',
+      formError: 'Something went wrong, please double check the form',
+      submittingError: 'Something went wrong. please try again after 1 minute',
+      forms: {
+        required: 'This field cannot be empty',
+        invalidEmail: 'Invalid email address.',
+      },
+    },
+  },
+};
+//# sourceMappingURL=en.js.map

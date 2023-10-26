@@ -1,0 +1,1 @@
+{"version":3,"names":["joinClass","classes","filter","Boolean","join"],"sources":["src/utils/joinClass.ts"],"sourcesContent":["export const joinClass = (...classes: Array<string>): string => {\n  return classes.filter(Boolean).join(' ');\n};\n"],"mappings":"MAAaA,EAAY,IAAIC,IACpBA,EAAQC,OAAOC,SAASC,KAAK,Y"}
